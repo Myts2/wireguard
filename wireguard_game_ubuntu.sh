@@ -92,9 +92,9 @@ udp_install(){
     mkdir /usr/src/udp
     mkdir /etc/wireguard/client
     cd /usr/src/udp
-    wget https://github.com/atrandys/wireguard/raw/master/speederv2
-    wget https://github.com/atrandys/wireguard/raw/master/udp2raw
-    wget https://raw.githubusercontent.com/atrandys/wireguard/master/run.sh
+    wget https://github.com/myts2/wireguard/raw/master/speederv2
+    wget https://github.com/myts2/wireguard/raw/master/udp2raw
+    wget https://raw.githubusercontent.com/myts2/wireguard/master/run.sh
     chmod +x speederv2 udp2raw run.sh
     
     #启动udpspeeder和udp2raw
